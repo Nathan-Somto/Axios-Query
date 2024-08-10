@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": "./",
+    "declaration": true,
+    "declarationMap": true,
+    "moduleResolution": "node",
+    "moduleDetection": "force",
+    "module": "esnext",
+    "target": "es2017",
+    "lib": ["dom", "es2022", "dom.iterable"],
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "typeRoots": ["./src/types.ts", "./node_modules/@types"],
+    "paths": {
+      "@types/*": ["src/types"]
+    },
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
